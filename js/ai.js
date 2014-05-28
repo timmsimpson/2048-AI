@@ -9,9 +9,9 @@ AI.prototype.eval = function() {
   var smoothWeight = 0.1,
       //monoWeight   = 0.0,
       //islandWeight = 0.0,
-      mono2Weight  = 1.0,
-      emptyWeight  = 2.7,
-      maxWeight    = 1.0;
+      mono2Weight  = 1.5,
+      emptyWeight  = 3.2,
+      maxWeight    = 2.0;
 
   return this.grid.smoothness() * smoothWeight
        //+ this.grid.monotonicity() * monoWeight
